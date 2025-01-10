@@ -46,6 +46,7 @@ Sebuah skrip Python untuk mengambil proxy dari API yang tercantum dalam file `ap
 
 ## 📘 Contoh Output
 ```
+
    _____                        _____                                     __      __   _ _     _       _   _
   |  __ \                      / ____|                             ___    \ \    / /  | (_)   | |     | | (_)
   | |__) | __ _____  ___   _  | (___   ___ _ __ __ _ _ __   ___   ( _ )    \ \  / /_ _| |_  __| | __ _| |_ _  ___  _ __
@@ -56,16 +57,23 @@ Sebuah skrip Python untuk mengambil proxy dari API yang tercantum dalam file `ap
                        |___/                        |_|
   Made with love by eLsavation
 
-[✔] Proxy diambil dari: https://api1.com/proxies
-[✔] Proxy diambil dari: https://api2.com/proxies
-[✔] Proxy mentah berhasil disimpan ke get-proxy.txt
+[*] Proxy diambil dari: https://api.proxyscrape.com/v4/free-proxy-list/get?request=display_proxies&country=id,sg&protocol=http&proxy_format=protocolipport&format=text&timeout=1618
+[INFO] Proxy mentah berhasil disimpan ke get-proxy.txt
+[START] Proxy Validation Starting...
+[HTTP] Proxy valid: 119.8.182.222:3128
+[HTTP] Proxy valid: 8.219.102.193:2000
+[HTTP] Proxy valid: 5.223.41.232:7000
+[HTTP] Proxy invalid: 103.224.124.93:8080
+[HTTP] Proxy valid: 157.20.209.105:8080
+[HTTP] Proxy valid: 103.151.140.124:10609
+[HTTP] Proxy valid: 143.42.66.91:80
+[HTTP] Proxy invalid: 116.254.96.111:8080
+[HTTP] Proxy valid: 103.234.35.142:8090
+[HTTP] Proxy valid: 178.128.113.118:23128
+[HTTP] Proxy invalid: 103.176.96.217:8082
+[INFO] Proxy yang valid disimpan ke valid-proxy.txt
 
-[🔍] Menguji proxy...
-[✔] Proxy valid: 123.123.123.123:8080
-[✘] Proxy invalid: 124.124.124.124:8080
-[✔] Proxy yang valid disimpan ke valid-proxy.txt
 ```
 
 ## 💡 Catatan
 - Pastikan API yang digunakan memberikan daftar proxy dalam format teks.
-- Proxy diuji dengan waktu batas (`timeout`) 5 detik untuk efisiensi.

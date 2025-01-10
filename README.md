@@ -69,10 +69,3 @@ Sebuah skrip Python untuk mengambil proxy dari API yang tercantum dalam file `ap
 ## 💡 Catatan
 - Pastikan API yang digunakan memberikan daftar proxy dalam format teks.
 - Proxy diuji dengan waktu batas (`timeout`) 5 detik untuk efisiensi.
-
-
-## 📞 Kontak
-Jika Anda memiliki pertanyaan, silakan hubungi saya di:
-- **Email**: hitmeup.awwal@gmail.com(mailto:hitmeup.awwal@gmail.com)
-- **GitHub**: [elsavation](https://github.com/elsavation)
-
